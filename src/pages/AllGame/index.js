@@ -32,6 +32,16 @@ export default function AllGame() {
                     arrows: false,
                 },
             },
+            {
+                breakpoint: 1250,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true,
+                    arrows: false,
+                },
+            },
         ],
     };
 

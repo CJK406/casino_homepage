@@ -37,6 +37,7 @@
 .footer > p {
     color: #555555;
     padding-top: 64px;
+    font-size: 13px;
 }
 .footer .footer-item {
     display: flex;
@@ -51,6 +52,7 @@
 
 .footer .footer-item li {
     list-style: none;
+    font-size: 13px;
 }
 .footer .footer-item ul {
     padding: 0px;
@@ -65,15 +67,20 @@
 }
 .footer .top-p {
     padding-top: 7%;
+    font-size: 14px;
 }
 .footer .bottom-p {
     padding-bottom: 10%;
+    font-size: 14px;
 }
 .footer .copyright {
     color: #555555;
     display: flex;
     justify-content: space-between;
     font-size: 12px;
+}
+.footer .footer-item > div p:last-child {
+    font-size: 13px;
 }
 @media only screen and (max-width: 1020px) {
     .newsletter {

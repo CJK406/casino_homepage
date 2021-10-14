@@ -59,6 +59,7 @@
 }
 .all-game .game-list > div p {
     padding-left: 15px;
+    font-size: 12px;
 }
 .all-game .game-list > div:nth-child(2) {
     padding: 0px 18px;
@@ -69,6 +70,7 @@
 .all-game .top-game .left > p:last-child {
     color: #555555;
     text-align: right;
+    font-size: 11px;
 }
 .all-game .game-showcase {
     padding: 0px 100px;
@@ -143,6 +145,7 @@
 }
 .all-game .pop-game .left .top > p:nth-child(3) {
     color: white;
+    font-size: 14px;
 }
 .all-game .pop-game .left .bottom > p:nth-child(2) {
     color: white;
@@ -194,18 +197,13 @@
     background-size: 100% 100%;
     padding: 100px;
 }
-/* .all-game .huge > div:nth-child(3) {
-    background: url(../../img/huge_bg.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-} */
 .all-game .huge > p:first-child {
     color: #e31f2d;
     font-size: 13px;
 }
 .all-game .huge > p:nth-child(2) {
     color: white;
-    font-size: 20px;
+    font-size: 35px;
 }
 .all-game .huge .slot-group {
     display: flex;
@@ -237,7 +235,7 @@
 }
 .all-game .winner > p:first-child {
     color: white;
-    font-size: 25px;
+    font-size: 35px;
 }
 .all-game .winner .header p {
     margin: 5px;
@@ -311,6 +309,9 @@
     align-items: center;
     justify-content: space-around;
 }
+.all-game .coin .left {
+    text-align: left;
+}
 .all-game .dashboard {
     padding: 100px;
     width: calc(100vw - 537px);
@@ -357,14 +358,15 @@
     color: white;
     padding: 12px 35px;
     border-radius: 30px;
-    font-size: 17px;
+    font-size: 13px;
     border: 1px solid white;
+    margin-top: 15px;
 }
 .all-game .more button i {
     padding-left: 10px;
 }
 .all-game .more {
-    padding: 0px 200px;
+    padding: 0px 140px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -372,6 +374,7 @@
 .all-game .more > div {
     color: #555555;
     text-align: left;
+    font-size: 13px;
 }
 .all-game .winner .winner-list .content > div:last-child {
     border: none;
@@ -435,6 +438,52 @@ button:hover {
 }
 .all-game .newsletter i {
     padding-left: 25px;
+}
+@media only screen and (max-width: 1600px) {
+    .all-game .game-showcase {
+        width: 64%;
+    }
+    .all-game .pop-game .left .top > p:first-child {
+        margin-top: 50px;
+    }
+    .all-game .more {
+        padding: 0px 20px;
+    }
+    .all-game .pop-game .right {
+        padding-right: 0px;
+        padding-left: 20px;
+        width: 50%;
+    }
+    .all-game .pop-game .left {
+        padding-left: 0px;
+    }
+    .all-game .winner > div {
+        padding-left: 4%;
+        padding-right: 4%;
+        justify-content: space-between;
+    }
+    .all-game .winner .winner-list .detail {
+        font-size: 13px;
+    }
+    .all-game .winner .winner-list .content > div {
+        padding: 10px 0px 10px 10px;
+    }
+    .all-game .coin {
+        padding: 100px;
+    }
+    .all-game .dashboard {
+        padding-top: 0px;
+    }
+}
+@media only screen and (max-width: 1445px) {
+    .all-game .game-showcase {
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 1300px) {
+    .all-game .game-showcase {
+        width: 48%;
+    }
 }
 @media only screen and (max-width: 1020px) {
     .all-game .top-game {
