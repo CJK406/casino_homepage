@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'BwModelicaSS01-RegularExpanded';
+    src: url('BwModelicaSS01-RegularExpanded.eot');
+    src: url('BwModelicaSS01-RegularExpanded.eot?#iefix') format('embedded-opentype'),
+        url('BwModelicaSS01-RegularExpanded.woff2') format('woff2'),
+        url('BwModelicaSS01-RegularExpanded.woff') format('woff'),
+        url('BwModelicaSS01-RegularExpanded.ttf') format('truetype'),
+        url('BwModelicaSS01-RegularExpanded.svg#BwModelicaSS01-RegularExpanded') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

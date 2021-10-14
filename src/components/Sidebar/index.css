@@ -1,0 +1,33 @@
+.btn-toggle {
+    display: none;
+    cursor: pointer;
+}
+.btn-toggle svg {
+    font-size: 30px;
+}
+.pro-sidebar-header {
+    padding: 30px 20px 40px;
+    text-align: center;
+}
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item {
+    padding-left: 45px;
+}
+.pro-sidebar {
+    height: auto;
+}
+@media only screen and (max-width: 1020px) {
+    .btn-toggle {
+        display: flex;
+        position: absolute;
+        left: 40px;
+        top: 3%;
+        color: white;
+    }
+    .pro-sidebar.md.toggled {
+        top: 0px;
+        width: 50%;
+    }
+    .pro-sidebar.md {
+        top: 0px;
+    }
+}

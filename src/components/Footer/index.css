@@ -1,0 +1,113 @@
+.footer {
+    background: #0b0b0b;
+    position: relative;
+    margin-top: 100px;
+    padding: 0px 20px;
+}
+.newsletter {
+    background: #e31f2d;
+    width: 50%;
+    display: inline-block;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    position: absolute;
+    top: -25px;
+    left: 24%;
+}
+.newsletter > p {
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+.newsletter > input {
+    background: none;
+    border: none;
+}
+.newsletter > button {
+    margin-right: 30px;
+    padding: 0px 20px;
+    background: black;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+.footer > p {
+    color: #555555;
+    padding-top: 64px;
+}
+.footer .footer-item {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    color: #555555;
+    margin-top: 60px;
+}
+.footer .footer-item p:first-child {
+    color: white;
+}
+
+.footer .footer-item li {
+    list-style: none;
+}
+.footer .footer-item ul {
+    padding: 0px;
+}
+.footer .policy {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.footer .policy p {
+    padding-left: 15px;
+}
+.footer .top-p {
+    padding-top: 7%;
+}
+.footer .bottom-p {
+    padding-bottom: 10%;
+}
+.footer .copyright {
+    color: #555555;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+@media only screen and (max-width: 1020px) {
+    .newsletter {
+        width: 90% !important;
+        left: 1%;
+    }
+    .newsletter > p {
+        font-size: 15px;
+    }
+    .newsletter > input {
+        width: 35%;
+    }
+    .newsletter > button {
+        margin-right: 0px;
+        padding: 0px 15px;
+    }
+    .all-game .newsletter i {
+        padding-left: 5px;
+    }
+    .footer .footer-item {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer .footer-item li {
+        float: left;
+        padding-left: 10px;
+    }
+    .footer .top-p {
+        flex-direction: column;
+    }
+    .footer .bottom-p {
+        flex-direction: column;
+    }
+    .footer .copyright {
+        flex-direction: column;
+    }
+}

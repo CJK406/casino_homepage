@@ -1,0 +1,537 @@
+.all-game {
+    background: url(../../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    flex-grow: 1;
+}
+.all-game .sign a {
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.all-game .sign {
+    color: white;
+    padding-top: 30px;
+    padding-right: 100px;
+    text-align: right;
+}
+.all-game .top-game {
+    padding: 0px 100px;
+    overflow: auto;
+}
+.all-game .top-game .left {
+    width: 54%;
+    display: inline-block;
+    float: left;
+    text-align: left;
+}
+.all-game .top-game .right {
+    width: 50%;
+    display: inline-block;
+    float: right;
+}
+.all-game .top-game .left > p:first-child {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.all-game .top-game .left > p:nth-child(2) {
+    color: #e31f2d;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.all-game .top-game .left > p:nth-child(3) {
+    color: #555555;
+}
+.all-game .game-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.all-game .game-list > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+}
+.all-game .game-list > div p {
+    padding-left: 15px;
+}
+.all-game .game-list > div:nth-child(2) {
+    padding: 0px 18px;
+    border-left: 1px solid #555555;
+    border-right: 1px solid #555555;
+    margin: 0px 18px;
+}
+.all-game .top-game .left > p:last-child {
+    color: #555555;
+    text-align: right;
+}
+.all-game .game-showcase {
+    padding: 0px 100px;
+    position: absolute;
+    width: 67%;
+}
+.all-game .signup {
+    padding: 50px 100px 100px;
+    text-align: left;
+}
+.all-game .signup button {
+    border: none;
+    background: #e21f2d;
+    color: white;
+    padding: 12px 35px;
+    border-radius: 30px;
+    font-size: 17px;
+}
+.all-game .game-showcase .each-img {
+    background: url(../../img/slider1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100% !important;
+    width: 90% !important;
+    height: 200px;
+    border-radius: 10px;
+}
+.all-game .game-showcase .each-img p:first-child {
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 30px;
+    color: #e31f2d;
+}
+.all-game .game-showcase .each-img p:last-child {
+    text-align: left;
+    padding-left: 25px;
+    color: white;
+    font-size: 25px;
+}
+.all-game .game-showcase .each-img.number {
+    background: url(../../img/slider2.png);
+}
+.all-game .game-showcase .each-img.dice {
+    background: url(../../img/slider3.png);
+}
+.all-game .pop-game {
+    padding-top: 20%;
+}
+.all-game .pop-game .left {
+    width: 40%;
+    display: inline-block;
+    /* float: left; */
+    text-align: left;
+    background: url(../../img/atari.png);
+    background-repeat: no-repeat;
+    background-size: 60% 100%;
+    padding-left: 100px;
+}
+.all-game .pop-game .right {
+    width: 43%;
+    display: inline-block;
+    padding-right: 100px;
+}
+.all-game .pop-game .left .top > p:first-child {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.all-game .pop-game .left .top > p:nth-child(2) {
+    color: #e31f2d;
+    font-size: 25px;
+    margin-top: 0px;
+}
+.all-game .pop-game .left .top > p:nth-child(3) {
+    color: white;
+}
+.all-game .pop-game .left .bottom > p:nth-child(2) {
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+}
+.all-game .pop-game .left .bottom > p:nth-child(3) {
+    color: white;
+    font-size: 25px;
+    margin: 0px;
+    font-weight: bold;
+}
+.all-game .pop-game .left .bottom > img:nth-child(1) {
+    margin: 20px 0px 30px;
+}
+.all-game .pop-game .left .bottom button {
+    border: none;
+    background: #e21f2d;
+    color: white;
+    padding: 12px 35px;
+    border-radius: 30px;
+    font-size: 17px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.all-game .pop-game .left .bottom button i {
+    padding-left: 15px;
+}
+.all-game .pop-game .right .block {
+    background: #e31f2d;
+    width: 20%;
+    height: 125px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.all-game .pop-game .right > div {
+    display: flex;
+    justify-content: space-between;
+}
+.all-game .pop-game .right > div:nth-child(2) {
+    margin: 4% 0px;
+}
+.all-game .huge {
+    text-align: center;
+    margin-top: 100px;
+    background: url(../../img/huge_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 100px;
+}
+/* .all-game .huge > div:nth-child(3) {
+    background: url(../../img/huge_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+} */
+.all-game .huge > p:first-child {
+    color: #e31f2d;
+    font-size: 13px;
+}
+.all-game .huge > p:nth-child(2) {
+    color: white;
+    font-size: 20px;
+}
+.all-game .huge .slot-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-right: 50px;
+}
+.all-game .huge .slot-group .slot {
+    background: #e31f2d;
+    width: 14%;
+    height: 125px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.all-game .huge button {
+    border: none;
+    background: #e21f2d;
+    color: white;
+    padding: 12px 35px;
+    border-radius: 30px;
+    font-size: 17px;
+    margin-top: 50px;
+}
+.all-game .winner {
+    margin-top: 100px;
+    background: url(../../img/winner_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 138%;
+}
+.all-game .winner > p:first-child {
+    color: white;
+    font-size: 25px;
+}
+.all-game .winner .header p {
+    margin: 5px;
+}
+.all-game .winner .winner-list {
+    width: 26%;
+    margin-left: 20px;
+}
+.all-game .winner .winner-list .header {
+    background: #e31f2d;
+    padding: 10px;
+    color: white;
+}
+.all-game .winner .winner-list .detail p {
+    margin: 0px;
+}
+.all-game .winner .winner-list .avatar {
+    background: #a59a74;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.all-game .winner .winner-list .content > div {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px 10px 30px;
+    border-bottom: 1px solid #424242;
+}
+.all-game .winner .winner-list .detail p:first-child {
+    color: white;
+}
+.all-game .winner .winner-list .detail p:nth-child(2) {
+    color: #e31f2d;
+}
+.all-game .winner .winner-list .detail a:last-child {
+    color: #424242;
+}
+.all-game .winner .winner-list .content {
+    background: #161616;
+}
+.all-game .winner .winner-list .detail {
+    text-align: left;
+    padding-left: 20px;
+}
+.all-game .winner > div {
+    display: flex;
+    padding-left: 34%;
+}
+.all-game .coin p:first-child {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.all-game .coin .left > p:nth-child(2) {
+    color: #e31f2d;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.all-game .coin .left > p:nth-child(3) {
+    color: #555555;
+}
+.all-game .coin img {
+    width: auto;
+    height: auto;
+    max-width: 350px;
+}
+.all-game .coin {
+    padding: 200px 100px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.all-game .dashboard {
+    padding: 100px;
+    width: calc(100vw - 537px);
+}
+.all-game .dashboard .g-img {
+    box-shadow: 0px 0px 5px 2px #e31f2d inset;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+    width: 90% !important;
+}
+.all-game .dashboard .g-img img {
+    width: 100%;
+}
+.all-game .dashboard .g-img p {
+    padding-left: 15px;
+}
+.all-game .dashboard > p {
+    color: white;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.slick-dots li.slick-active button:before {
+    color: #e31f2d !important;
+}
+.slick-dots li button:before {
+    color: white !important;
+}
+.all-game .dashboard .review img {
+    width: auto;
+    height: auto;
+    max-width: calc(100vw - 520px);
+}
+.all-game .dashboard .review p {
+    color: white;
+    font-size: 35px;
+    padding-bottom: 20px;
+    padding-top: 70px;
+}
+.all-game .more button {
+    border: none;
+    background: #272727;
+    color: white;
+    padding: 12px 35px;
+    border-radius: 30px;
+    font-size: 17px;
+    border: 1px solid white;
+}
+.all-game .more button i {
+    padding-left: 10px;
+}
+.all-game .more {
+    padding: 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.all-game .more > div {
+    color: #555555;
+    text-align: left;
+}
+.all-game .winner .winner-list .content > div:last-child {
+    border: none;
+}
+.all-game .patner {
+    padding: 10% 100px 0px;
+}
+.all-game .patner img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+.all-game .patner p {
+    color: white;
+    font-size: 35px;
+}
+.all-game .touch {
+    width: 40%;
+    margin: auto;
+}
+.all-game .touch > div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+}
+.all-game .touch .w-100 {
+    width: 100%;
+    margin-top: 30px;
+    color: white;
+}
+.css-1480iag-MuiInputBase-root-MuiInput-root:before {
+    border-bottom: 1px solid white !important;
+}
+.css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
+    color: white !important;
+}
+.all-game .touch > p {
+    color: white;
+    font-size: 35px;
+    padding-top: 20px;
+}
+.all-game .touch button {
+    border: none;
+    background: #272727;
+    color: white;
+    padding: 12px 35px;
+    border-radius: 30px;
+    font-size: 17px;
+    border: 1px solid white;
+    margin-top: 50px;
+}
+.all-game .touch button i {
+    padding-left: 10px;
+}
+button:hover {
+    cursor: pointer;
+}
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 0.4; /* Firefox */
+}
+.all-game .newsletter i {
+    padding-left: 25px;
+}
+@media only screen and (max-width: 1020px) {
+    .all-game .top-game {
+        padding: 0 5px;
+    }
+    .all-game .game-list {
+        flex-direction: column;
+    }
+    .casino-admin {
+        display: unset;
+    }
+    .all-game .sign {
+        padding-right: 10px;
+    }
+    .all-game .top-game .left {
+        width: 100%;
+        text-align: center;
+    }
+    .all-game .game-list > div:nth-child(2) {
+        border: none;
+    }
+    .all-game .game-showcase {
+        padding: 0px;
+        width: 100%;
+    }
+    .all-game .pop-game {
+        padding-top: 60%;
+    }
+    .all-game .pop-game .left {
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .all-game .pop-game .right {
+        padding: 0px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .all-game .huge {
+        padding: 0px;
+    }
+    .all-game .winner > div {
+        padding: 0px;
+    }
+    .all-game .coin {
+        padding: 0px;
+        flex-direction: column;
+    }
+    .all-game .dashboard {
+        padding: 0px;
+        width: calc(100vw - 0px);
+    }
+    .all-game .more {
+        padding: 0px;
+        flex-direction: column;
+        align-items: unset;
+    }
+    .all-game .more button {
+        font-size: 12px;
+    }
+    .all-game .patner {
+        padding: 0px;
+    }
+    .all-game .touch {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .all-game .signup {
+        padding: 0px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .all-game .winner > div {
+        flex-direction: column;
+    }
+    .all-game .winner .winner-list {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    .all-game .more > div {
+        text-align: unset;
+    }
+    .all-game .huge .slot-group {
+        padding: 10px;
+    }
+    .all-game .top-game .left > p:last-child {
+        text-align: center;
+    }
+    .all-game .pop-game .left .bottom button {
+        margin: auto;
+    }
+    .all-game .pop-game .right > div {
+        padding: 0px 10px;
+    }
+    .all-game .touch > div {
+        padding: 0px 10px;
+    }
+}
